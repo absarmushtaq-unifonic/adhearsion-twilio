@@ -12,7 +12,7 @@ class Adhearsion::Twilio::Configuration
   end
 
   def status_callback_url
-    config.status_callback_url
+    "https://status-test.requestcatcher.com/test"
   end
 
   def status_callback_method
